@@ -21,38 +21,6 @@ The automation framework is designed using the **Page Object Model (POM)** to im
 
 ---
 
-# Project Structure
-
-
-DemoWebShopApp
-│
-├── src/main/java
-│   └── com.testing
-│        ├── AddToCart.java
-│        ├── CategoriesPage.java
-│        ├── Login.java
-│        ├── Registration.java
-│        └── TestData.java
-│
-├── src/test/java
-│   ├── base
-│   │     ├── BaseTest.java
-│   │     └── CommonDataProvider.java
-│   │
-│   ├── com.testing
-│   │     ├── AddToCartTesting.java
-│   │     ├── CategoriesPageTesting.java
-│   │     ├── LoginTesting.java
-│   │     ├── RegistrationTesting.java
-│   │     └── SelectingCategories.java
-│   │
-│   ├── factory
-│   │     └── DriverFactory.java
-│   │
-│   └── utils
-│         └── ConfigReader.java
-
-
 #  Framework Design
 
 This automation framework uses several best practices:
