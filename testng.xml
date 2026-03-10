@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="AutomationSuite">
+
+    <test name="Flow">
+
+        <classes>
+            <class name="com.testing.RegistrationTest"/>
+            <class name="com.testing.LoginTesting"/>
+        </classes>
+
+    </test>
+
+</suite>
